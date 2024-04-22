@@ -58,6 +58,8 @@ endmodule
 
 ![318350573-560eccc5-6a68-48f0-ae9c-f721fb0b33c0](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/ea6cd404-113f-47cb-acf2-bb92d5acadac)
 
+# RTL DESIGN
+<img width="760" alt="324393749-8af87b44-d89d-44f6-86aa-361176fd9c0d" src="https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/798429a4-bc03-46d8-b933-7949e0c73e0d">
 
 # 4 Bit Multiplier
 
@@ -125,6 +127,9 @@ endmodule
 # OUTPUT WAVEFORM
 
 ![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/db096417-bd1d-4915-92db-63082deec40e)
+
+# RTL DESIGN
+ <img width="758" alt="324393789-5ee9e9e8-2916-4e4c-beb6-7eb3a04a8868" src="https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/88150aef-1b7b-4310-9278-5216937c929e">
 
 
 **Result**
