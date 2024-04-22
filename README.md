@@ -1,15 +1,15 @@
 # SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
- AIM:
+#  AIM:
 
       To simulate and synthesis multiplier using Xilinx ISE.
 
 
-APPARATUS REQUIRED:
+# APPARATUS REQUIRED:
                      
                       Vivado 2023.1
 
-PROCEDURE:
+# PROCEDURE:
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -33,12 +33,7 @@ PROCEDURE:
  ![301736574-7713750f-65e6-41c0-8082-5005eac4031c](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/e1eca648-0c56-4c81-adbf-d1a41b4b0ede)
 ![301736574-7713750f-65e6-41c0-8082-5005eac4031c](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/066b65eb-97c4-4da7-a238-8e292c244783)
 
-**4 Bit Multiplier**
-![318350783-e9423ec2-41b0-4e2d-9931-05f4554a7393](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/02c8e8e5-8e42-498f-bea6-c53b2841631f)
-
-
-**Verilog code**
-#  Multiplexer 2bit
+# VERILOG CODE
 ```
 ha adder2(w3,w4,p[2],cout);
 module ha(a,b,sum,carry);
@@ -59,7 +54,17 @@ and (w3,a[1],b[1]);
 ha adder1(w1,w2,p[1],w4);
 endmodule
 ```
-# 4 bit multiplier
+# OUTPUT WAVEFORM
+
+![318350573-560eccc5-6a68-48f0-ae9c-f721fb0b33c0](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/ea6cd404-113f-47cb-acf2-bb92d5acadac)
+
+
+# 4 Bit Multiplier
+
+![318350783-e9423ec2-41b0-4e2d-9931-05f4554a7393](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/02c8e8e5-8e42-498f-bea6-c53b2841631f)
+
+
+# Verilog code
 ```
 module ha(a,b,sum,carry);
 input a,b;
@@ -117,11 +122,8 @@ fa r74(w[15],fc[4],fc[6],p[6],p[7]);
 endmodule
 ```
 
-**Output Waveform**
-#  Multiplexer 2bit
-![318350573-560eccc5-6a68-48f0-ae9c-f721fb0b33c0](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/ea6cd404-113f-47cb-acf2-bb92d5acadac)
+# OUTPUT WAVEFORM
 
-# 4 bit multiplier
 ![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/magesh0123/VLSI-LAB-EXP-3/assets/162102402/db096417-bd1d-4915-92db-63082deec40e)
 
 
